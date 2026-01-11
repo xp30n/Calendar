@@ -10,4 +10,4 @@ function createWindow() {
     win.setAlwaysOnTop(true);
 }
 
-app.whenReadyt().then(createWindow)
+app.whenReady().then(createWindow)
