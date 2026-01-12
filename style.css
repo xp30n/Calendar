@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url(assets/fonts/Orbitron-VariableFont_wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, body {
     height: 100vh;
     background: transparent;
@@ -9,4 +16,48 @@ body {
     background: rgba(0, 109, 197, 0.56);
     border-color: #000;
     -webkit-app-region: drag;
+}
+
+.header-wrapper {
+    height: 50px;
+    width: 315px;
+    margin: 5% auto 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    background-color: #679CFF;
+    margin-top: 5%;
+}
+
+h1 {
+    font-family: 'Orbitron';
+    font-size: 28px;
+    text-align: center;
+}
+
+.app {
+    font-family: 'Orbitron';
+    width: 315px;
+    height: 320px;
+    border-radius: 20px;
+    margin: 5% auto 0;
+
+    display: flex;
+    margin-top: 10%;
+    background-color: #C4D7FF;
+    align-items: center;
+    justify-content: center;
+}
+
+#day {
+    height: 142px;
+
+    text-align: center;
+    font-family: 'Orbitron';
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
