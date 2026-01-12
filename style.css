@@ -13,8 +13,7 @@ html, body {
 body {
     margin: 0;
     padding: 16px;
-    background: rgba(0, 109, 197, 0.56);
-    border-color: #000;
+    background: rgba(0, 109, 197, 0.9);
     -webkit-app-region: drag;
 }
 
@@ -60,4 +59,20 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.star1 {
+    position: absolute;
+    width: 22%;
+    left: 1%;
+    top: 2%;
+
+}
+
+.star2 {
+    position: absolute;
+    width: 20%;
+    left: 80%;
+    top: 84%;
+
 }
