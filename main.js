@@ -8,7 +8,7 @@ function createWindow() {
         mazimizable: false,
         fullscreenable: false,
         frame: false,
-        transparent: false,
+        transparent: true,
         backgroundColor: '#00000000',
         webPreferences: {
             contextIsolation: true
