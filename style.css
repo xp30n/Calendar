@@ -51,14 +51,30 @@ h1 {
 }
 
 #day {
-    height: 142px;
-
+    display: flex;
+    height: 152px;
     text-align: center;
-    font-family: 'Orbitron';
+
     font-size: 128px;
     font-style: normal;
     font-weight: 400;
+
     line-height: normal;
+}
+
+#month {
+    height: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 0.1em;
+
+}
+
+#year {
+    height: 90px;
+    text-align: center;
+    font-size: 48px;
 }
 
 .star1 {

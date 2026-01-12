@@ -3,7 +3,7 @@ function updateCalendar() {
     const day = now.getDate(); // get today's date
     const monthNames = ["JAN", "FEB", "MAR", "APR", "MAY", "JUNE", "JULY", "AUG", "SEPT", "OCT", "NOV", "DEC"] // Displays the names of each month
     const year = now.getFullYear(); // Get the year
-    const month = monthNames[now.getMonth()]; // Fetch the month from the array ^ 
+    const month = monthNames[now.getMonth()]; // Fetch the month from the array^ 
 
     // Displays the day, month and the year
     document.getElementById("day").textContent = day;
